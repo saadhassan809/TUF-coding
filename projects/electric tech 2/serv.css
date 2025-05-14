@@ -1,0 +1,112 @@
+/* UTILITIES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+  font-family: arial, sans-serif;
+}
+
+  header{
+    
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    font-family: 'Electrolize', sans-serif;
+  }
+
+  .logoo{
+    color: #fff;
+    display: flex;
+    width: 30px;
+    height: 70px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  /* NAVBAR STYLING STARTS */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #2f2d2d;
+    color: #fff;
+    z-index: 999;
+    font-family: "Electrolize", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .nav-links a {
+    color: #fff;
+  }
+  /*logo*/
+  .logo {
+    font-size: 32px;
+  }
+  
+  /* NAVBAR MENU */
+  .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+  }
+  
+  .menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .menu li {
+    padding: 5px 14px;
+  }
+
+
+
+/*MY formulaire*/
+#myForm {
+    width: 300px;
+    margin: 0 auto;
+    margin: 200px;
+  }
+  
+  #myForm label {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  #myForm input[type="text"], #myForm input[type="email"], #myForm input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+  #myForm input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #myForm input[type="submit"]:hover {
+    background-color: #45a049;
+  }
